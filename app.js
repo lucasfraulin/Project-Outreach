@@ -10,13 +10,27 @@ app.use(express.static("public"));
 
 // about us
 app.get("/about-us", function(req,res){
-  res.render("about-us");
+  res.sendFile(__dirname + "/public/about-us.html");
 })
 
+// contact us
+app.get("/contact-us", function(req,res){
+  res.sendFile(__dirname + "/public/contact-us.html");
+})
 
-// root route
+// get involved
+app.get("/get-involved", function(req,res){
+  res.sendFile(__dirname + "/public/get-involved.html");
+})
+
+// projects
+app.get("/projects", function(req,res){
+  res.sendFile(__dirname + "/public/projects.html");
+})
+
+// home page or root route
 app.get("/", function(req,res){
-  res.render("home");
+  res.sendFile(__dirname + "/public/index.html");
 });
 
 
