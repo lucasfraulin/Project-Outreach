@@ -1,7 +1,7 @@
 {
   "name": "project-outreach",
   "version": "1.0.0",
-  "engine":{
+  "engine": {
     "node": "12.18.1"
   },
   "description": "Project Outreach Webpage",
