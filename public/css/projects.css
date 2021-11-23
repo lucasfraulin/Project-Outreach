@@ -1,55 +1,37 @@
 /* project */
- html, body{
+html,
+body {
   background-color: #ffffff;
   background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
- /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you!  */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you!  */
 }
 
-.nav-item .active{
-  font-weight:bold;
-}
-.peru-img {
-  height: inherit;
-  float: right;
-  margin: 0 0 0 3%;
+.mycontainer {
+  padding: 0 !important;
 }
 
-.marco-img {
-  width: 50%;
-  max-height: 500px;
-  object-fit: cover;
-  height: inherit;
-  float: right;
-  margin: 0 0 0 3%;
-}
-.josef-img {
-  width: 35%;
-  max-height: 500px;
-  object-fit: fill;
-  height: inherit;
-  float: right;
-  margin: 0 0 0 3%;
-}
-.ecuador-img {
-  width: 25%;
-  object-fit: cover;
-  height: inherit;
-  float: right;
-  margin: 0 0 0 3%;
+.project-container {
+  margin-bottom: 2rem;
 }
 
-.vietnam-img {
-  width: 55%;
-  object-fit: cover;
-  height: inherit;
-  float: right;
-  margin: 0 0 0 3%;
+.project-content {
+  padding: 1rem;
 }
 
+.nav-item .active {
+  font-weight: bold;
+}
 
+.project-header {
+  padding-top: 1rem;
+}
 
-.story-header{
-  padding: 20px 20px 0 0;
+.story-header {
+  padding: 1rem;
+}
+
+.story-subtitle {
+  font-size: 1rem;
 }
 
 .project-tabs {
@@ -60,11 +42,10 @@
   height: 122px;
 }
 
-.project-content {
-  padding: 20px 0 0 0;
+.project-text {
+  padding: 0.8rem 0 0 0;
   text-align: left;
 }
-
 
 .tab-content {
   background-color: white;
@@ -75,22 +56,9 @@
 }
 
 @media (max-width: 992px) {
-.peru-img  /*  .marco-img */{
-    display: none !important;
-  }
-
-  .mycontainer{
+  .mycontainer {
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-  }
-
-  .peru-img-2 {
-    display: block !important;
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
   }
 }
